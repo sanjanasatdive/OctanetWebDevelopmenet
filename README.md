@@ -15,9 +15,12 @@ Routing: Angular’s routing has been implemented for smooth navigation between 
 Responsive Design: Optimized for different screen sizes, ensuring that the landing page works seamlessly on desktops, tablets, and mobile devices.
 Animations: Basic CSS animations are applied for enhancing user engagement.
 
-**Technologies Used**
+**Technologies Used**!
+
+
 Angular: Front-end framework for creating a dynamic, single-page application (SPA).
 HTML5: For structuring the content of the web page.
 CSS3: For styling and ensuring responsiveness.
 Bootstrap: Used for layout and UI components, ensuring the design is mobile-first and responsive.
 JavaScript/TypeScript: For handling logic and routing in the application.
+
