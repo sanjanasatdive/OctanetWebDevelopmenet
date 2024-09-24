@@ -1,0 +1,112 @@
+/* Contact Page Styles */
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .contact-container p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-block {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-block:hover {
+    background-color: #c0392b;
+  }
+  
+  .contact-info {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .info-item {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .info-item i {
+    font-size: 2rem;
+    color: #e74c3c;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-item p {
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  .social-icons {
+    margin-top: 3rem;
+  }
+  
+  .social-icons a {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info-item {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    form {
+      width: 90%;
+    }
+  }
+  

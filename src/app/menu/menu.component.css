@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  /* Menu Section */
+  .menu-container {
+    padding: 4rem 1rem;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .menu-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  /* Menu Card Styling */
+  .menu-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 1.5rem auto;
+    overflow: hidden;
+    max-width: 320px;
+    text-align: left;
+    position: relative; /* For positioning hover effect */
+    cursor: pointer; /* Indicate interactivity */
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image Styling */
+  .menu-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Add animation to image */
+  }
+  
+  .menu-card:hover .menu-card-img {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+  }
+  
+  /* Card Content */
+  .menu-card-content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .menu-card-content h3 {
+    font-size: 1.8rem;
+    color: #e74c3c;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .menu-card-content p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 1.4rem;
+    color: #34495e;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button Styling */
+  .btn-order {
+    background-color: #e74c3c;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Added transform */
+  }
+  
+  .btn-order:hover {
+    background-color: #c0392b;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .menu-card {
+      max-width: 300px;
+      margin: 1rem;
+    }
+  }
+  

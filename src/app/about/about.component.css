@@ -1,0 +1,89 @@
+/* Banner Section */
+.about-banner {
+    background: url('/assets/images/.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .banner-overlay {
+    background: rgba(250, 98, 37, 0.6);
+    padding: 40px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner-overlay h1 {
+    font-size: 3rem;
+  }
+  
+  .banner-overlay p {
+    font-size: 1.5rem;
+  }
+  
+  /* Who We Are Section */
+  .who-we-are h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .who-we-are p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Our Team Section */
+  .our-team {
+    padding: 2rem 0;
+  }
+  
+  .our-team .team-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .our-team h5 {
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+  }
+  
+  .our-team p {
+    font-size: 1rem;
+  }
+  
+  /* Our Values Section */
+  .our-values h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .our-values p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .banner-overlay h1 {
+      font-size: 2.2rem;
+    }
+  
+    .banner-overlay p {
+      font-size: 1.2rem;
+    }
+  
+    .who-we-are h2 {
+      font-size: 2rem;
+    }
+  }
+  
